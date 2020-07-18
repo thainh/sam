@@ -78,6 +78,7 @@ func Practice4() {
 }
 func Practice5() {
 	i := rand.Intn(1000)
+
 }
 func main() {
 	Init()

@@ -11,7 +11,7 @@ Sam's repository where Sam start learning golang
 ### Bài 3: done
 - Liệt kê 100 phần từ đầu tiên của dãy Fibonacci
 
-### Bài 4:
+### Bài 4: done
 - Tìm tất cả các số thương của số tự nhiên n
 
 ### Bài 5:
