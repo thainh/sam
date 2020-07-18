@@ -32,15 +32,14 @@ func Practice1() {
 		n := rand.Intn(1000)
 		fmt.Print(n)
 		if n%2 == 0 {
-			fmt.Println(" la so chan")
+			fmt.Printf(" la so chan\n")
 		} else {
-			fmt.Println(" la so le")
+			fmt.Printf(" la so le\n")
 		}
 	}
 }
 
 func Practice2() {
-	//n := rand.Intn(1000)
 	count := 0
 	for n := 0; n <= 1000; n++ {
 		if n%5 == 0 && n%3 == 0 && n%7 == 0 {
@@ -49,10 +48,23 @@ func Practice2() {
 		}
 	}
 }
+func Practice3() {
+	fmt.Printf("This is fionacci from 1 to 50 \n\n")
+	i1 := 0
+	i2 := 1
+	fmt.Printf("So thu 1: %d \n", i1)
+	fmt.Printf("So thu 2: %d \n", i2)
+	for count := 3; count <= 50; count++ {
+		i3 := i1 + i2
+		fmt.Printf("So thu %d: %d \n", count, i3)
+		i1 = i2
+		i2 = i3
+	}
+}
 func main() {
 	Init()
-	fmt.Printf("I'm learn Golang \n\n")
 
-	//Practice1()
+	Practice1()
 	Practice2()
+	Practice3()
 }
