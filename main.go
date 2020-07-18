@@ -63,7 +63,6 @@ func Practice3() {
 }
 func main() {
 	Init()
-
 	Practice1()
 	Practice2()
 	Practice3()
