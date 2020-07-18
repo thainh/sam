@@ -8,8 +8,8 @@ Sam's repository where Sam start learning golang
 ### Bài 2: done
 - Tìm các số tự nhiên <=1000 chia hết cho cả 3,5 và 7
 
-### Bài 3:
+### Bài 3: done
 - Liệt kê 100 phần từ đầu tiên của dãy Fibonacci
 
 ### Bài 4:
-- Tìm số lớn nhất, nhỏ nhất trong một dãy số
+- Tìm tất cả các số thương của số tự nhiên n
