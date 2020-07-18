@@ -1,5 +1,5 @@
 # sam
-Sam repository
+Sam's repository where Sam start learning golang
 ---
 ### Bài 1:
 - Liệt kê các số chẵn, số lẻ <= 1000
