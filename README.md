@@ -12,4 +12,4 @@ Sam's repository where Sam start learning golang
 - Liệt kê 100 phần từ đầu tiên của dãy Fibonacci
 
 ### Bài 4:
-- Tìm tất cả các số thương của số tự nhiên n
+- Tìm tất cả các số thương của số tự nhiên của n
