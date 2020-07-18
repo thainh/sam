@@ -61,9 +61,29 @@ func Practice3() {
 		i2 = i3
 	}
 }
+func Practice4() {
+	count := 0
+	n := rand.Intn(1000)
+	fmt.Printf("cac thuong cua %d la :\n", n)
+	for i := 1; i <= 1000; i++ {
+		if n%i == 0 {
+			count++
+			if count <= 9 {
+				fmt.Printf("lan %d : %d\n", count, i)
+			} else {
+				fmt.Printf("lan %d: %d\n", count, i)
+			}
+		}
+	}
+}
+func Practice5() {
+	i := rand.Intn(1000)
+}
 func main() {
 	Init()
-	Practice1()
-	Practice2()
-	Practice3()
+	//Practice1()
+	//Practice2()
+	//Practice3()
+	//Practice4()
+	Practice5()
 }

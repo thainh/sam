@@ -13,3 +13,6 @@ Sam's repository where Sam start learning golang
 
 ### Bài 4:
 - Tìm tất cả các số thương của số tự nhiên n
+
+### Bài 5:
+- Tìm các số hoàn hảo <= 1000
