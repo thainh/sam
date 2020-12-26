@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-// Func made by Ba Thai
+//Func made by Ba Thai
 func clearScreen() {
 	cmd := exec.Command("clear") //Linux clear screen
 	cmd.Stdout = os.Stdout
@@ -20,8 +20,8 @@ func Init() {
 	clearScreen()
 }
 
-// Identify a number is odd number or even number
-func Practice1() {
+//Identify a number is odd number or even number
+func Problem1() {
 	fmt.Printf("Practice 1: Identify a number is odd number or even number\n")
 	for i := 1; i <= 10; i++ {
 		if i == 1 {
@@ -39,7 +39,7 @@ func Practice1() {
 	}
 }
 
-func Practice2() {
+func Problem2() {
 	count := 0
 	for n := 0; n <= 1000; n++ {
 		if n%5 == 0 && n%3 == 0 && n%7 == 0 {
@@ -48,7 +48,7 @@ func Practice2() {
 		}
 	}
 }
-func Practice3() {
+func Problem3() {
 	fmt.Printf("This is fionacci from 1 to 50 \n\n")
 	i1 := 0
 	i2 := 1
@@ -61,11 +61,11 @@ func Practice3() {
 		i2 = i3
 	}
 }
-func Practice4() {
+func Problem4() {
 	count := 0
 	n := rand.Intn(1000)
 	fmt.Printf("cac thuong cua %d la :\n", n)
-	for i := 1; i <= 1000; i++ {
+	for i := 1; i <= n; i++ {
 		if n%i == 0 {
 			count++
 			if count <= 9 {
@@ -76,15 +76,45 @@ func Practice4() {
 		}
 	}
 }
-func Practice5() {
-	i := rand.Intn(1000)
+func Problem5() {
+
+	for n := 1; n <= 200000; n++ {
+
+		// Kiem tra xem n co phai la so hoan hao khong ?
+		if n%10000 == 0 {
+			fmt.Printf("Ktra %d: \n", n)
+		}
+		tong := 0
+		for i := 1; i < n; i++ {
+			if n%i == 0 {
+				tong = tong + i
+			}
+		}
+		if tong == n {
+			fmt.Printf("%d la so hoan hao\n", n)
+		}
+	}
+}
+func Problem6() {
+	//Tim so cap doi
+	for a := 1; a <= 1000; a++ {
+		for b := 1; b <= 1000; b++ {
+
+		}
+	}
+
 
 }
+
 func main() {
 	Init()
-	//Practice1()
-	//Practice2()
-	//Practice3()
-	//Practice4()
-	Practice5()
+	fmt.Printf("\nStart the program\n")
+	//Problem1()
+	//Problem2()
+	//Problem3()
+	//Problem4()
+	//Problem5()
+	Problem6()
+
+	fmt.Printf("\nEnd the program\n")
 }

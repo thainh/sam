@@ -1,9 +1,10 @@
 # sam
-Who want to learn golang
+exercise of who wants to learn golang
 ---
 ### Bài 1:
 - Liệt kê các số chẵn, số lẻ <= 1000
 - Chọn ngẫu nhiên 1 số tự nhiên n, kiểm tra xem số n là chắn hay lẻ
+
 
 ### Bài 2:
 - Tìm các số tự nhiên <=1000 chia hết cho cả 3,5 và 7
